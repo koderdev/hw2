@@ -1,6 +1,6 @@
 header{
 	text-align: center;
-	background-image: url(../images/flywheel.jpg) ;
+	background-image: url(../imgs/flywheel.jpg) ;
 	padding: 50px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -39,7 +39,12 @@ img{
 	width: 77%;
 	margin: 10%;
 	border: solid #000000 2px;
+	transition: 2s ease;
 
+}
+
+img:hover{
+	transform: scale(1.5, 2);
 }
 
 .right{
@@ -65,7 +70,7 @@ a{
 }
 
 a:hover{
-	transform: rotate(360deg);
+	transform: scale(1.5, 1.5);
 	background: #01ff0094;
 	color: #ffd700;
 }
@@ -105,3 +110,4 @@ td:first-child, th:first-child{
 td:hover{
 	opacity: 1;
 }
+

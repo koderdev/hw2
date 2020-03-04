@@ -111,3 +111,11 @@ td:hover{
 	opacity: 1;
 }
 
+span{
+	font-style: oblique;
+
+}
+
+p#copy{
+	color: #000000b3;
+}

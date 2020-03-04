@@ -37,14 +37,14 @@ nav a{
 
 img{
 	width: 77%;
-	margin: 13px;
+	margin: 10%;
 	border: solid #000000 2px;
 
 }
 
 .right{
 	display: inline-block;
-	width: 86%;
+	width: 85%;
 
 }
 
@@ -61,11 +61,47 @@ body{
 
 a{
 	transition-property: border-radius, background, color;
-	transition: 2s ease;
+	transition: 1s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 a:hover{
 	transform: rotate(360deg);
 	background: #01ff0094;
 	color: #ffd700;
+}
+
+/*final project styling*/
+.right table{
+	box-sizing: border-box;
+	border: none;
+	border-radius: 4px 4px 0px 0px;
+	margin-left: 10%;
+	width: 62%;
+}
+
+.right th{
+	border: solid #d2ff00;
+	border-width: 1px 1px 2px;
+	background: linear-gradient(180deg, #547303, #a5a527);
+	padding: 2%;
+	color: #ffffff;
+
+}
+
+.right td{
+	background: #c3ffc3;
+	text-align: center;
+	padding: 2%;
+	opacity: 0.5;
+	color: #000000;
+	font-family: "Apple Chancery", cursive; 
+
+}
+
+td:first-child, th:first-child{
+	text-align: left;
+}
+
+td:hover{
+	opacity: 1;
 }
